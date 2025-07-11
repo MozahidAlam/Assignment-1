@@ -1,3 +1,6 @@
+body{
+    background-color: #D6DDED;
+}
 .inter-container{
     font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -122,6 +125,7 @@ color: #000000;
     font-weight: bold;
     align-items: center;
     text-align: center;
+    margin-top: 137px;
 }
 .comment{
     display: flex;
@@ -136,11 +140,47 @@ color: #000000;
     box-shadow: #252432;
 
 }
-.user-opinion{
-    margin-top: 137px;
+.card-details{
     display: flex;
-    justify-content:space-between;
+    justify-content:center;
+    gap: 20px;
+}
+.user-opinion{
+    margin-bottom:100px;
 }
 
+.borolekha{
+    font-size: 80px;
+    font-weight: bold;
+    width: 528px;
+    height: 232px;
+}
+.form-container{
+    display: flex;
+    justify-content:center;
+    margin-top: 100px;
+    gap:100px;
+    width: 1140px;
+    height: 632px;
+    margin: 0 auto;
+
+}
+
+input , textarea{
+    width: 497px;
+   height: 70px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+
+}
+textarea{
+    width: 497px;
+    height: 135px;
+}
 
     
