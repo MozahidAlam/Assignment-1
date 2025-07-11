@@ -101,7 +101,7 @@ color: #000000;
     align-items: center;
     gap: 158px;
 }
-..User-activity-container h2 p {
+.User-activity-container h2 p {
     gap: 30px;
 }
 .productive-user{
