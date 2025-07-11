@@ -82,12 +82,12 @@ button,.focus-button{
     font-weight: bold;
     color: #4E47FF;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 .user p{
 font-size: 20px;
 font-weight: normal;
 color: #000000;
-margin-bottom: 10px;
 
 }
 .User-activity-container{
@@ -99,3 +99,48 @@ margin-bottom: 10px;
 ..User-activity-container h2 p {
     gap: 30px;
 }
+.productive-user{
+    background-color:  #e6e6fa;
+    width: 1140px;
+    height: 309px;
+    border: none;
+    border-radius: 15px;
+    padding-top: 50px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.tile-1{
+    font-size: 20px;
+}
+.sub-title-1{
+    font-size: small;
+}
+.opinion-title{
+    font-size: 42px;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+}
+.comment{
+    display: flex;
+}
+
+.card-container{
+    width: 366.67px;
+    height: 243px;
+    background-color:#F2EDED;
+    border:black;
+    border-radius: 15px;
+    box-shadow: #252432;
+
+}
+.user-opinion{
+    margin-top: 137px;
+    display: flex;
+    justify-content:space-between;
+}
+
+
+    
