@@ -1,36 +1,101 @@
+.inter-container{
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:bolder;
+  font-style: normal;
+  font-size: 34px;
+  color:#4E47FF;
+}
+
 nav{
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    margin: 0 200px;
-    width: 1140px;
-    height: 140px;
-}
-.inter-container {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-
+    padding: 50px 150px;
+    align-items: center;
+   
 }
 .btn-primary{
-    background-color: #4E47FF;
+
+     background-color: #4E47FF;
     cursor: pointer;
-    font-size: 16px;
     color: white;
+    border-radius: 10px;
+    font-size: 16px;
     border: 0;
-    border-radius: 5px;
-    width: 132px;
-    height:48px;
 }
-.logo-primary{
-    color: #4E47FF;
-    font-size: 34px;
-   margin-left: 10px;
+.intro{
+    text-align: center;
+    font-size: 65px;
+    font-weight: bolder;
+    margin: 158px 152px 200px 200px;
+    align-items: center;
+    justify-content: center;
+    display:block;
 }
-.head{
-    width: 1440px;
-    height: 698px;
-    padding: 0 0 0 200px;
+header{
     background-image: url("../Assets/Hero-bg.png");
+    align-items: center;
+    margin-top: 0%;
+
+
+}
+
+button,.focus-button{
+    text-align: center;
+    justify-content: center;
+    margin-bottom: auto;
+    margin-bottom: 157px;
+    height: 48px;
+    width: 132px ;
+}
+ .Title{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+}
+.sub-title{
+    font-size: 24px;
+    font-weight: normal;
+    color: #252432;
+}
+.btn-3{
+    width: 229px;
+    height: 48px;
+}
+.action-poster{
+    width: 403px;
+    height: 328px;
+}
+.action-container{
+    display: flex;
+    justify-content:center;
+    gap: 200px;
+}
+.user-pro{
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.user h2{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+    margin-top: 10px;
+}
+.user p{
+font-size: 20px;
+font-weight: normal;
+color: #000000;
+margin-bottom: 10px;
+
+}
+.User-activity-container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 158px;
+}
+..User-activity-container h2 p {
+    gap: 30px;
 }
